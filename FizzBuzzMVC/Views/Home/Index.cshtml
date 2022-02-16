@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container col-xxl-9 px-4 pb-5 mb-0">
+    <div class="row g-5 row-cols-1 row-cols-lg-2">
+        <div class="col order-last order-lg-first">
+            <h1 class="display-5 fw-bold lh-1 mb-3"><span class="logoFont">FizzBuzz</span>: A Coding Project</h1>
+            <h4 class="lead">
+                Don't "Buzz" when you need to "Fizz." Thankfully, this program can help with that! 
+                Introducing <span class="logoFont">FizzBuzz</span>, A javascript coding exercise utilizing loops &amp; logic. 
+                Write a program that displays each number from 1 to 100. For each multiple of 3, display "Fizz" 
+                instead of the number. For each multiple of 5, display "Buzz" instead of the number. 
+                For numbers which are multipels of both 3 and 5, display "FizzBuzz" instead of the number. 
+            </h4>
+            <ul class="fa-ul pt-2 checklist">
+                <li><span class="fa-li"><i class="fas fa-check-square" aria-hidden="true"></i></span>CSS and Bootstrap Layout</li>
+                <li><span class="fa-li"><i class="fas fa-check-square" aria-hidden="true"></i></span>C# Fundamentals</li>
+                <li><span class="fa-li"><i class="fas fa-check-square" aria-hidden="true"></i></span>C# Loops</li>
+                <li><span class="fa-li"><i class="fas fa-check-square" aria-hidden="true"></i></span>C# Methods</li>
+                <li><span class="fa-li"><i class="fas fa-check-square" aria-hidden="true"></i></span>C# IF/THEN/ELSE</li>
+                <li><span class="fa-li"><i class="fas fa-check-square" aria-hidden="true"></i></span>C# Boolean Logic</li>
+            </ul>
+            <div>
+                <a type="button" asp-area="" asp-controller="Home" asp-action="FBPage" class="btn btn-outline-dark btn-lg px-4 me-md-2">Try It Out!</a>
+            </div>
+            <div class="row d-flex mt-5 display-7">
+                <div class="col"><i class="fab fa-js-square fa-4x jsicon" aria-hidden="true"></i></div>
+                <div class="col"><i class="fab fa-bootstrap fa-4x bsicon" aria-hidden="true"></i></div>
+                <div class="col"><i class="fab fa-html5 fa-4x html5icon" aria-hidden="true"></i></div>
+                <div class="col"><i class="fab fa-css3-alt fa-4x cssicon" aria-hidden="true"></i></div>
+            </div>
+        </div>
+        <div class="col d-flex align-items-center">
+            <img src="~/img/FizzBuzz.png" class="img-fluid center-block d-block mx-auto" alt="App logo" width="700">
+        </div>
+    </div>
+</div>

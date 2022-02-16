@@ -1,0 +1,93 @@
+:root {
+    --primary-color: #b2292c;
+    --secondary-color: #ff993b;
+    --dark-color: #292929;
+    --white-color: #e7e7e7;
+}
+
+.logoFont {
+    font-family: 'Fredericka the Great', cursive; /* from Google fonts */
+}
+
+body {
+    color: var(--dark-color);
+}
+
+nav {
+    background-color: var(--primary-color);
+}
+
+/* Override bootstrap styling with an id. 
+    Every selector has a 'numerical weight.'
+    an id = 100 points which should be enough.
+*/
+#navLink {
+    color: var(--white-color);
+}
+
+.navbar-brand:link, .navbar-brand:visited, .navbar-brand:hover {
+    color: var(--white-color);
+}
+
+.nav-link:link, .nav-link:visited {
+    color: var(--white-color);
+}
+
+.nav-link:hover {
+    opacity: .5;
+}
+
+footer, header {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+footer {
+    line-height: 60px;
+}
+
+.link-light:hover {
+    opacity: .5;
+}
+
+.sticky-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/*footer .social > a {
+    color: var(--white-color);
+    opacity: .75;
+}
+
+footer .social > a:hover {
+    opacity: .9;
+    color: var(--secondary-color);
+}*/
+
+.checklist > li i {
+    color: var(--secondary-color)
+}
+
+table {
+    table-layout: fixed;
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+    white-space: pre-wrap;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.bsicon { color: purple }
+
+.jsicon { color: rgb(226,211,4) }
+
+.html5icon { color: orangered }
+
+.cssicon { color: rgb(11,82,214) }
+
+h1, h2, h3, h4, h5, h6 { color: var(--dark-color); }
